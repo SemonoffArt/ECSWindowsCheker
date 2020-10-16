@@ -16,7 +16,7 @@
 Вывод парсится скриптом и предоставляется в JSON, на основании в Zabbix формируются items и triggers.
 
 ## Installation
-Скопируйте скрипт в папку externalscripts Zabbix. 
+Скопируйте скрипт в папку **externalscripts** Zabbix. 
 
 ![Make Item](../img/make_external_check_item.png?raw=true)
 
