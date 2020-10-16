@@ -18,10 +18,10 @@
 ## Installation
 Скопируйте скрипт в папку **externalscripts** Zabbix. 
 
-![Make Item](/img/make_external_check_item.PNG)
-
 Создайте в конфигурации хоста item типа *"External check"*, 
 в поле KEY введите *ecs_chk_windows.py[{HOST.CONN}]*.
+
+![Make Item](/img/make_external_check_item.PNG)
 
 ## Python Version
 Скрипт создан и тестировался на Python 3.6.9
