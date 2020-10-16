@@ -2,11 +2,11 @@
 [![License](https://img.shields.io/github/license/m-lundberg/simple-pid.svg)](https://github.com/m-lundberg/simple-pid/blob/master/LICENSE.md)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Скрипт предназначен для сбора информации по открытым окнам SCADA FLS ECS на хостах и передаче системе мониторинга Zabbix.
+Скрипт предназначен для сбора информации по открытым окнам **SCADA FLS ECS** на хостах и передаче системе мониторинга Zabbix.
 
 Так как открытые окна ECS лицензируются, требуется контроль с каких хостов, какие пользователи, 
 с каким количеством мнемосхем работают, и каким ECS серверам они подключены.
-Скрип вызывается zabbix сервером как ключ "External Check" c передачей ip адреса хоста и команды, 
+Скрип вызывается zabbix сервером как ключ *"External Check"* c передачей ip адреса хоста и команды, 
 результат работы json структура с информацией по открытым окнам ECS.
 
 Скрипт используя утилиту zabbix_get выполняет через zabbix агента, установленного на удалённом хосте, утилиты:
