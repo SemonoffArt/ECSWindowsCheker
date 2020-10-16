@@ -24,7 +24,8 @@
 
 ## Python Version
 Скрипт создан и тестировался на Python 3.6.9
-##Dependencies
+
+## Dependencies
 Без внешних зависимостей, только стандартные библиотеки Python.
 
 
